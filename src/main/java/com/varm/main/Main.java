@@ -51,7 +51,7 @@ public class Main {
 		String outputDe = NaiveBayesService.predict(exampleDe, nb);
 		System.out.format("The sentense \"%s\" was classified as \"%s\".%n", exampleDe, outputDe);
 
-		String exampleEn2 = "Bonjour le monde! Je suis un Naive Bayesian Network";
+		String exampleEn2 = "Bonjour le monde! Je suis un Naive Bayesian Network hopa";
 		String outputEn2 = NaiveBayesService.predict(exampleEn2, nb);
 		System.out.format("The sentense \"%s\" was classified as \"%s\".%n", exampleEn2, outputEn2);
  
